@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #101828;
+}
+
+.title {
+  color: #101828;
+  font-size: 50px;
+  font-weight: 900;
+  line-height: 1;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.button {
+  border-radius: 200px;
+  color: #0e0d0d;
+  font-size: 0.8rem;
+  font-weight: 700;
+  height: 56px;
+  line-height: 22px;
+  margin-top: 20px;
+  padding: 8px;
+  text-decoration: none;
+  width: 173px;
+  gap: 40px;
+  background-color: rgb(237, 116, 10);
+}
+.title-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 100px;
+  text-align: center;
+}
+.total {
+  margin-top: 20px;
+}
